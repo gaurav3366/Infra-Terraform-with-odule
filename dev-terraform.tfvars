@@ -1,0 +1,16 @@
+rgname           = "dev-gtest"
+rglocation       = "uk south"
+vnet-name        = "gk-test-vnet"
+address_space    = ["10.0.0.0/16"]
+vm-name          = "gktest"
+vm_size          = "Standard_DS1_v2"
+address_prefixes = ["10.0.2.0/24"]
+publisher        = "Canonical"
+offer            = "0001-com-ubuntu-server-focal"
+sku              = "20_04-lts"
+os_disk_name     = "myosdisk1"
+caching          = "ReadWrite"
+node_count       = 2
+identity         = "SystemAssigned"
+tags_aks         = "Development"
+aks_vm_size      = "Standard_D2_v2"
